@@ -1,0 +1,109 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;}
+body{
+background-image:url(2.png);
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 98vh;
+}
+.card{
+    position:fixed;
+    max-height: 58vh;
+    background-color: #7b7e81;
+    border-radius: 10px;
+    color: rgb(240, 240, 240);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 65%;
+    bottom: 400px;
+    transform: translate(-50%,50%);
+    width:300px;
+    height: 400px;
+    padding: 40px;
+}
+.forgot{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    bottom: 4px;
+    right: 73px;
+    font-size: 70%;
+}
+.info{
+    padding: 8px;
+    position: relative;
+    bottom:20px ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    position: relative;
+    bottom: 20px;
+    font-size:40px;
+    font-weight:900;
+}
+.button{
+    background-color:#ffde59;
+    border-radius: 20px;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 13px 110px;
+    position: relative;
+    left:16px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.7s ease;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.em{
+    background-color: #c4c4c4;    
+    box-sizing: border-box;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight:500;
+    border-radius: 10px;
+    height: 30px;
+    width:300px ;
+}
+.pass{
+    background-color: #c4c4c4;
+    box-sizing: border-box;
+    border-style: none;
+    font-size: 15px;
+    font-weight:500;
+    border-radius: 10px;
+    height: 30px;
+    width:300px ;
+}
+.email{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80%;
+    position: relative;
+    bottom:70px;
+    left: 2px;
+}
+.password{
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 80%;
+    position: relative;
+    bottom: 50px;
+    left: 2px;
+}
+p{
+font-size: 70%;
+}
+.account{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}

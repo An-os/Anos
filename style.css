@@ -1,0 +1,326 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0; /* تزيل أي هامش خارجي يعطيه المتصفح للوسم بشكل إفتراضي */
+  padding: 0; /* تزيل أي هامش داخلي يعطيه المتصفح للوسم بشكل إفتراضي*/
+  box-sizing: border-box; /*لجعل الهامش الداخلي و الحدود يتم حسابهما مع طول و عرض العنصر */
+  scroll-behavior: smooth;
+}
+    header {
+    background-color: rgb(253, 253, 253);    
+    width: 100%;  /*  لتحديد العرض    */
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 6px 120px;
+  }
+  .logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 1.8em;
+    transition: 0.5s;
+  }
+  .logo:hover{
+  color: #575757;
+  transform: scale(1.1);
+  }
+.navigation a{
+    text-decoration: none;
+    color:rgb(20, 20, 20);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-left: 20px;
+    position: relative;
+    right: 15px;
+}
+section{
+padding: 15%;
+color: rgb(255, 255, 255);
+}
+.main{
+  min-height: 100vh ;/* لتحديد أقل طول للعنصر*/
+  background: url(sebastian-svenson-d2w-_1LJioQ-unsplash\ \(1\).jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+.main h1{
+  font-weight: 800;
+  font-size: 3em;
+  position: relative;
+  top: 10px;
+  right: 125px;
+  margin-top: 80px;
+}
+.main h2{
+  font-weight: 600;
+  font-size: 2.4em;
+  position: relative;
+  right: 120px;
+}
+.main h3{
+  position: relative;
+  bottom: 3px;
+  font-weight:600 ;
+  font-size:1.8em ;
+  right: 120px;
+}
+.main a{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  position: relative;
+  right: 120px;
+}
+.main-btn{
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0.7em  1.2em;
+  border-radius: 100px;
+  margin-bottom: 40px; /* أبعدناه عن العناصر الموجودة تحته */
+  transition: 0.9s ease;
+}
+.main-btn:hover{/* تعني ماذا سيحصل عند تمرير الفارة فوق الزرار hover*/
+  background-color: rgb(219, 219, 219);
+  transform: scale(1.1);
+}
+.sign{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1.4em;
+  transition: 0.5s ease;
+}
+.sign:hover{
+transform: scale(1.1);
+}
+.cards{
+height: 736px;
+background-color:#636363;
+font-size: 80%;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+  bottom:100px;
+}
+.content{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card{
+  background-color:#ffde59;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(63, 63, 63, 0.5);
+  border-radius: 10px;
+  padding:20px;
+  margin: 20px;
+  transition: 0.7s;
+  position: relative;
+  bottom: 50px;
+}
+.card2{
+  background-color:#ffde59;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(63, 63, 63, 0.5);
+  border-radius: 10px;
+  padding:20px;
+  margin: 20px;
+  transition: 0.7s;
+  position: relative;
+  bottom: 50px;
+}
+.info h2{
+  text-align: center;
+color: black;
+font-weight: 800;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.info p{
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-weight:600;
+  font-size:1.1em ;
+  }
+.icon{
+color:black;
+font-size: 5em;
+display: flex;
+justify-content: center;
+}
+.fa-mobile{
+position: relative;
+right:19px;
+top: 20px;
+font-size: 70%;
+}
+.devices{
+  text-decoration: none;
+}
+.clothes{
+  text-decoration: none;
+}
+.vehicles{
+  text-decoration: none;
+}
+.card3{
+  background-color:#ffde59;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(63, 63, 63, 0.5);
+  border-radius: 10px;
+  padding:20px;
+  margin: 20px;
+  transition: 0.7s;
+  position: relative;
+  bottom: 50px;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.card2:hover{
+  transform: scale(1.1);
+}
+.card3:hover{
+  transform: scale(1.1);
+}
+.foote{
+  height: 600px;
+  background-color: #000000;
+}
+.sentence{
+  color: aliceblue;
+}
+.copy{
+  display: inline-block;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+.sp{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.paypal{
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: rgb(126, 126, 126);
+  color: rgb(26, 26, 26);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 170px;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 1.1em;
+  transition: 0.7s;
+}
+.paypal:hover{
+  transform: scale(1.1);
+}
+.donation{
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffde59;
+  font-weight:800;
+  font-size:1.1em ;
+  margin-bottom:15px ;
+}
+.goal{
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffde59;
+  font-weight:800;
+  font-size:1.1em ;
+  margin-top: 40px;
+  margin-bottom:15px ;
+}
+.social{
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffde59;
+  font-weight:800;
+  font-size:1.1em ;
+  margin-top: 40px;
+  margin-bottom:15px ;
+}
+.fa-hand-holding-dollar{
+  position: relative;
+  bottom: 2px;
+  color: #ffde59;
+  font-size: 1.3em;
+}
+.fa-hand-fist{
+  position: relative;
+  bottom: 2px;
+  color: #ffde59;
+  font-size: 1.3em;
+}
+.do{
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1em;
+}
+.container{
+  border-radius: 30px;
+  width: 20%;
+  margin-right: 40px;
+  }
+.container2{
+  border-radius: 30px;
+  width:20% ;
+}
+.me{
+  display: flex;
+  justify-content: center;
+  font-size: 85%;
+}
+.sentence h1{
+  color: #ffde59;
+}
+.sentence h2{
+  color: #b6b6b6;
+}
+.fa-share-nodes{
+  color: #ffde59;
+  font-size: 1.3em;
+}
+.fa-twitter{
+  color: #ffde59;
+  font-size: 1.5em;
+}
+.fa-instagram{
+  color: #ffde59;
+  font-size: 1.5em;
+}
+.fa-linkedin{
+  color: #ffde59;
+  font-size: 1.5em;
+}
+.icons{
+padding: 4em;
+display: flex;
+justify-content: space-between;
+position: relative;
+bottom: 40px;
+}
+.container3{
+  font-size: 85%;
+  margin-bottom: 70px;
+}
