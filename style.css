@@ -1,0 +1,346 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0; /* تزيل أي هامش خارجي يعطيه المتصفح للوسم بشكل إفتراضي */
+  padding: 0; /* تزيل أي هامش داخلي يعطيه المتصفح للوسم بشكل إفتراضي*/
+  box-sizing: border-box; /*لجعل الهامش الداخلي و الحدود يتم حسابهما مع طول و عرض العنصر */
+  scroll-behavior: smooth;
+}
+    header {
+    background-color: rgb(48, 48, 48);    
+    width: 100%;  /*  لتحديد العرض    */
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 8px 120px;
+    border-style:solid;
+    border-bottom:solid rgb(255, 255, 255);
+    border-width: 3px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+  }
+  .Anos{
+    width: 150px;  
+  }
+.navigation a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-left: 20px;
+    position: relative;
+    right: 15px;
+    padding: 10px;
+}
+section{
+padding: 15%;
+color: rgb(255, 255, 255);
+}
+.main{
+  min-height: 100vh ;/* لتحديد أقل طول للعنصر*/
+  background: url(sebastian-svenson-d2w-_1LJioQ-unsplash\ \(1\).jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+.ev{
+  user-select: none;
+  position: relative;
+  right: 120px;
+  margin-top: 80px;
+}
+.main h1{
+  font-weight: 800;
+  font-size: 3em;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.main h2{
+  font-weight: 600;
+  font-size: 2.4em;
+}
+.main h3{
+  position: relative;
+  bottom: 3px;
+  font-weight:600 ;
+  font-size:1.8em ;
+}
+.main-btn{
+  user-select: none;
+  text-decoration: none;
+  background-color:#ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  position: relative;
+  right: 110px;
+  display: inline-block;
+  padding: 0.7em  1.1em;
+  border-radius: 90px;
+  margin-bottom: 40px; /* أبعدناه عن العناصر الموجودة تحته */
+  transition: 0.7s ease;
+}
+.main-btn:hover{/* تعني ماذا سيحصل عند تمرير الفارة فوق الزر hover*/
+  background-color:#000000;
+  color: hsl(0, 0%, 100%);
+  transform:translatey(2px);
+  box-shadow: #ffffff 0px 0px 8px;
+}
+.signup{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1.2em;
+  background-color: #ffffff;
+  border-radius: 90px;
+  padding: 0.6em 1em;
+  transition: 0.5s ease;
+}
+.signup:hover{
+  transform: scale(1.1);
+}
+.login{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 0.6em 1.2em;
+}
+.cards{
+user-select: none;
+height: 736px;
+background-color:#e7e7e7;
+font-size: 80%;
+}
+.title{
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+  bottom:100px;
+}
+.content{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card{
+  background-color:#ffde59;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(63, 63, 63, 0.5);
+  border-radius: 30px;
+  padding:20px;
+  margin: 20px;
+  transition: 0.7s;
+  position: relative;
+  bottom: 50px;
+}
+.card2{
+  background-color:#ffde59;
+  width: 23.25em;
+  box-shadow: 0 5px 25px rgba(63, 63, 63, 0.5);
+  border-radius: 30px;
+  padding:40px;
+  margin: 30px;
+  transition: 0.7s;
+  position: relative;
+  bottom:76px;
+}
+.info h2{
+  text-align: center;
+color: black;
+font-weight: 800;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.info p{
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-weight:600;
+  font-size:1.1em ;
+  }
+.icon{
+color:black;
+font-size: 5em;
+display: flex;
+justify-content: center;
+}
+.fa-mobile{
+position: relative;
+right:19px;
+top: 20px;
+font-size: 70%;
+}
+.devices{
+  text-decoration: none;
+}
+.clothes{
+  text-decoration: none;
+}
+.vehicles{
+  text-decoration: none;
+}
+.card3{
+  background-color:#ffde59;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(63, 63, 63, 0.5);
+  border-radius: 30px;
+  padding:20px;
+  margin: 20px;
+  transition: 0.7s;
+  position: relative;
+  bottom: 50px;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.card2:hover{
+  transform: scale(1.1);
+}
+.card3:hover{
+  transform: scale(1.1);
+}
+.foote{
+  height: 712px;
+  background-color: #000000;
+}
+.sentence{
+  color: aliceblue;
+}
+.copy{
+  display: inline-block;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+.sp{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.paypal{
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color:#000000;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 170px;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 1.1em;
+  transition: 0.7s;
+}
+.paypal:hover{
+  transform: scale(1.1);
+}
+.donation{
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffde59;
+  font-weight:800;
+  font-size:1.1em ;
+  margin-bottom:15px ;
+}
+.goal{
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffde59;
+  font-weight:800;
+  font-size:1.1em ;
+  margin-top: 40px;
+  margin-bottom:15px ;
+}
+.social{
+  margin-right: 10px;
+  display: inline-block;
+  color: #ffde59;
+  font-weight:800;
+  font-size:1.1em ;
+  margin-top: 40px;
+  margin-bottom:15px ;
+}
+.fa-hand-holding-dollar{
+  position: relative;
+  bottom: 2px;
+  color: #ffde59;
+  font-size: 1.3em;
+}
+.fa-hand-fist{
+  position: relative;
+  bottom: 2px;
+  color: #ffde59;
+  font-size: 1.3em;
+}
+.do{
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1em;
+}
+.container{
+  border-radius: 30px;
+  width: 20%;
+  margin-right: 40px;
+  }
+.container2{
+  border-radius: 30px;
+  width:20% ;
+}
+.me{
+  display: flex;
+  justify-content: center;
+  font-size: 85%;
+}
+.sentence {
+position: relative;
+top: 610px;
+}
+.sentence h1{
+  color: #ffde59;
+}
+.sentence h2{
+  color: #b6b6b6;
+}
+.fa-share-nodes{
+  color: #ffde59;
+  font-size: 1.3em;
+}
+.fa-twitter{
+  color: #ffde59;
+  font-size: 1.5em;
+}
+.fa-instagram{
+  color: #ffde59;
+  font-size: 1.5em;
+}
+.fa-linkedin{
+  color: #ffde59;
+  font-size: 1.5em;
+}
+.icons{
+padding: 6em;
+display: flex;
+justify-content: space-between;
+position: relative;
+bottom: 70px;
+}
+.container3{
+  font-size: 85%;
+  margin-bottom: 70px;
+}
+.name{
+  width: 15%;
+}
