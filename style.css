@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 8px 120px;
+    padding: 0PX 120px;
     border-style:solid;
     border-bottom:solid rgb(255, 255, 255);
     border-width: 3px;
@@ -22,7 +22,9 @@
     border-right: none;
   }
   .Anos{
-    width: 150px;  
+    width: 140px;  
+    position: relative;
+    top: 15px;
   }
 .navigation a{
     text-decoration: none;
@@ -46,27 +48,20 @@ color: rgb(255, 255, 255);
   background-size: cover;
 }
 .ev{
-  user-select: none;
   position: relative;
-  right: 120px;
+  right: 100px;
   margin-top: 80px;
 }
-.main h1{
+h1.woord{
   font-weight: 800;
+  font-size: 4em;
+}
+h1.word{
+  font-weight: 600;
   font-size: 3em;
   position: relative;
-  top: 10px;
-  right: 10px;
-}
-.main h2{
-  font-weight: 600;
-  font-size: 2.4em;
-}
-.main h3{
-  position: relative;
-  bottom: 3px;
-  font-weight:600 ;
-  font-size:1.8em ;
+  bottom: 10px;
+  left: 2px;
 }
 .main-btn{
   user-select: none;
@@ -77,18 +72,14 @@ color: rgb(255, 255, 255);
   font-size: 1.3em;
   letter-spacing: 1px;
   position: relative;
-  right: 110px;
+  right: 95px;
   display: inline-block;
-  padding: 0.7em  1.1em;
+  padding: 0.6em  0.8em;
   border-radius: 90px;
-  margin-bottom: 40px; /* أبعدناه عن العناصر الموجودة تحته */
   transition: 0.7s ease;
 }
 .main-btn:hover{/* تعني ماذا سيحصل عند تمرير الفارة فوق الزر hover*/
-  background-color:#000000;
-  color: hsl(0, 0%, 100%);
-  transform:translatey(2px);
-  box-shadow: #ffffff 0px 0px 8px;
+  transform: scale(1.1);
 }
 .signup{
   text-decoration: none;
@@ -101,7 +92,7 @@ color: rgb(255, 255, 255);
   transition: 0.5s ease;
 }
 .signup:hover{
-  transform: scale(1.1);
+  transform: scale(1.1em);
 }
 .login{
   text-decoration: none;
@@ -112,7 +103,7 @@ color: rgb(255, 255, 255);
 }
 .cards{
 user-select: none;
-height: 736px;
+height: 777px;
 background-color:#e7e7e7;
 font-size: 80%;
 }
@@ -211,8 +202,9 @@ font-size: 70%;
   transform: scale(1.1);
 }
 .foote{
-  height: 712px;
+  height: 772px;
   background-color: #000000;
+  position: relative; 
 }
 .sentence{
   color: aliceblue;
@@ -343,4 +335,6 @@ bottom: 70px;
 }
 .name{
   width: 15%;
+  position: relative;
+  top: 20px;
 }
